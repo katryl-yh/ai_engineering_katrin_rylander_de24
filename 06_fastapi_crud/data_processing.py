@@ -1,5 +1,5 @@
 import json
-import pprint
+from pprint import pprint
 from constants import DATA_PATH, CURRENT_YEAR
 from pydantic import BaseModel, Field, field_validator
 
@@ -49,4 +49,6 @@ class YearFilter(BaseModel):
         return value
     
 if __name__ == "__main__":
-    print(repr(read_json("library.json")))
+    library = library_data("library.json")
+    pprint(library)
+    #pprint(repr(read_json("library.json")))
