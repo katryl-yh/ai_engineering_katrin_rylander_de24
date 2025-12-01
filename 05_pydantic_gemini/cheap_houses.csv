@@ -1,0 +1,8 @@
+,price,monthly_fee,living_area,number_rooms,address,type
+6,4600000,950,98.0,4,"Fältgatan 5, Linköping",house
+12,4200000,800,110.0,4,"Hjorthagsvägen 10, Norrköping",house
+16,4800000,700,105.0,4,"Kvarnvägen 20, Växjö",house
+26,4500000,850,95.0,4,"Stenhagsvägen 11, Borås",house
+34,4900000,900,100.0,4,"Backavägen 15, Kalmar",house
+38,4300000,750,90.0,3,"Björnstigen 2, Sundsvall",house
+46,4700000,950,105.0,4,"Mimers Gränd 7, Lund",house
