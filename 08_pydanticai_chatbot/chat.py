@@ -20,8 +20,13 @@ class JokeBot:
         return {"user":prompt, "bot":self.result.output}
     
 if __name__ == "__main__":
+    # instantiate an instance of class JokeBot
     bot = JokeBot()
 
+    # call method chat (bot is sent in as self)
+    result = bot.chat("tell me a math joke")
     result = bot.chat("hallo there")
+
+    result = bot.chat("what did I ask you first")
     print(result)
     
